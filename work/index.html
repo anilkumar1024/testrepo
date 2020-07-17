@@ -1,17 +1,7 @@
 <html>
 	<title>Testing index page</title>
 	<body>
-		This is test page
+		This is test page updated
 		<img src="Conclusion.jpg">
 	</body>
-	<div id="tofetch">
-		<script>
-			var tofetch = document.getElementById("tofetch");
-			fetch("http://yamahabuc2.s3-website.ap-south-1.amazonaws.com/another.html").then((response)=>{
-				return response.text();
-				}).then((html)=>{
-					tofetch.innerHTML=html;
-				});
-		</script>
-	</div>
 </html>
